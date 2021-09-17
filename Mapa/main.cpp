@@ -25,7 +25,7 @@ int main(){
     enrutador enruta_temp;
     mapa topologia;
     //Abrir el archivo de texto, lectura de la red
-    /***Se define un prototipo de red en texto el cual será explicado en la sustentación.***/
+    /***Se define un prototipo de red en texto.***/
     while(fin.good()){
         getline(fin,linea);
         size_t pos=linea.find(";");    //Toma por determinado que la posición entre el inicio y ";" es el nombre del router
